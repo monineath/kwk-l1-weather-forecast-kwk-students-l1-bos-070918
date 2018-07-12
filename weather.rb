@@ -28,8 +28,7 @@ end
 # You'll want to use the each method to iterate over the hash and print out
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 def weather.each do |key, value|
-  puts key
-  puts 
+  puts "The #{key} is #{value}."
 end 
 end
   
